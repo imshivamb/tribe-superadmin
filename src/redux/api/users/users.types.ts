@@ -53,3 +53,23 @@ export type TGetUsersParams = {
   size: string;
   search: string;
 };
+
+
+// export type TGhostUser = {
+//   id: string;
+//   name: string;
+//   slug: string;
+//   email: string;
+//   profile_image: string | null;
+//   cover_image: string | null;
+//   bio: string | null;
+//   website: string | null;
+//   location: string | null;
+//   facebook: string | null;
+//   twitter: string | null;
+//   created_at: string;
+//   updated_at: string;
+//   visibility: 'public' | 'private';
+//   status: 'active' | 'inactive' | 'locked';
+//   // Add any other fields that Ghost returns
+// };
